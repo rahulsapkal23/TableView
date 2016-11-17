@@ -1,3 +1,12 @@
 <Alloy>
-	<Window id="win" class="container"></Window>
+	<Window id="win" class="container">
+		<TableView>
+			<TableViewRow class="TableViewRowcontainer" id="TableViewRow1">
+				<ImageView class="ImageViewcontainer" image="/download (5).jpeg"></ImageView>
+				<Label class="Labelcontainer">fgfgf</Label>
+				<Label class="Labelcontainer">fgfgf</Label>
+			</TableViewRow>
+		</TableView>
+
+	</Window>
 </Alloy>

@@ -1,17 +1,15 @@
 ".container" : {
 	backgroundColor: 'red',
-	exitOnClose: true,
 	fullscreen: false,
 	title: 'TableView Demo'
 }
 ".TableViewRowcontainer" : {
 	borderColor: "pink",
-	backgroundColor: "gray",
+	backgroundColor: "transparent",
 	selectedBackgroundColor: 'green',
 	height: 110
 }
 ".ImageViewcontainer" : {
-	image: 'DefaultIcon.png',
 	left: 10,
 	top: 5,
 	width: 50,

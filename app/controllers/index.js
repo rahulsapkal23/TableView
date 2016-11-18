@@ -41,6 +41,7 @@ $.dynamicListView.sections[0].setItems(items, {
 
 function openWebViewUrl(url) {
     var webview = Titanium.UI.createWebView({
+        top: 70,
         "url": url
     });
 
@@ -54,7 +55,11 @@ function openWebViewUrl(url) {
         window.close();
     });
 
-    var window = Titanium.UI.createWindow();
+    var window = Titanium.UI.createWindow({
+        backgroundColor: "white",
+        top: 10
+    });
+
     window.add(webview);
     window.add(button);
 

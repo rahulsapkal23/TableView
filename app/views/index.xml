@@ -1,5 +1,5 @@
 <Alloy>
-	<Window id="win">
+	<Window id="win" top="30">
 		<ListView id="dynamicListView">
 			<Templates>
 				<ItemTemplate name="image_title" height="100">

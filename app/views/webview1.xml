@@ -1,0 +1,11 @@
+<Alloy>
+    <!-- <NavigationWindow id="nav_vebview"> -->
+
+    <Window backgroundColor="green">
+        <Button onClick="closeWindow">Close Window</Button>
+        <WebView/>
+    </Window>
+
+    <!-- </NavigationWindow> -->
+
+</Alloy>

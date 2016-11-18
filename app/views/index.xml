@@ -4,7 +4,7 @@
 			<Templates>
 				<ItemTemplate name="image_title" height="100">
 					<View layout="horizontal" left="15">
-						<ImageView bindId="image" height="70" width="70" id="image"/>
+						<ImageView bindId="image" height="70" width="70" onClick="WebView" id="image"/>
 						<Label bindId="label" class="Labelcontainer" id="label1"/>
 					</View>
 				</ItemTemplate>

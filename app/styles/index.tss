@@ -1,7 +1,6 @@
 ".container" : {
-	backgroundColor: 'red',
-	fullscreen: false,
-	title: 'TableView Demo'
+	backgroundColor: 'green',
+	top: 20
 }
 ".TableViewRowcontainer" : {
 	borderColor: "pink",
@@ -19,11 +18,7 @@
 	color: '#576996',
 	font: {
 		fontFamily: 'Arial',
-		fontWeight: 'bold'
-	},
-	text: 'Fred Smith ',
-	left: 70,
-	top: 6,
-	width: 200,
-	height: 30
+		fontWeight: 'bold',
+		fontSize: '10'
+	}
 }

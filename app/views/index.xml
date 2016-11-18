@@ -1,12 +1,20 @@
 <Alloy>
-	<Window id="win" class="container">
-		<TableView>
-			<TableViewRow class="TableViewRowcontainer" id="TableViewRow1">
-				<ImageView class="ImageViewcontainer" image="/download (5).jpeg"></ImageView>
-				<Label class="Labelcontainer">fgfgf</Label>
-				<Label class="Labelcontainer">fgfgf</Label>
-			</TableViewRow>
-		</TableView>
-
+	<Window id="win">
+		<ListView id="dynamicListView">
+			<Templates>
+				<ItemTemplate name="image_title" height="100">
+					<View layout="horizontal" left="15">
+						<ImageView bindId="image" height="70" width="70" id="image"/>
+						<Label bindId="label" class="Labelcontainer" id="label1"/>
+					</View>
+				</ItemTemplate>
+				<ItemTemplate name="title_only" height="50">
+					<View left="15">
+						<Label bindId="label"/>
+					</View>
+				</ItemTemplate>
+			</Templates>
+			<ListSection/>
+		</ListView>
 	</Window>
 </Alloy>
